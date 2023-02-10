@@ -48,7 +48,7 @@ manuel_generate_easyrsa(){
     echo '' | $RSA_REQ gen-req $ca_client_name nopass
     echo 'yes' | $RSA_REQ sign-req client $ca_client_name
     openssl verify -CAfile pki/ca.crt pki/issued/$ca_client_name.crt
-    #clear
+    clear
     echo "All Done"
     echo ''
 }
