@@ -4,7 +4,7 @@ export GIT_SSL_NO_VERIFY=1
 git config http.sslVerify false
 
 RSA_REQ=./easyrsa
-GITFILE=.gi
+GITFILE=.git
 
 quick_generate_easyrsa(){
     echo "yes" | $RSA_REQ init-pki
