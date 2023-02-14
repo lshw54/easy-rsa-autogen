@@ -76,7 +76,7 @@ menu(){
     echo "2. Manuel Generate"
     echo "3. Download EasyRSA Only"
     echo "4. Exit"
-    read -rp "Choose the option [1-3]: " choice
+    read -rp "Choose the option [1-4]: " choice
 
     case $choice in
         1) 
